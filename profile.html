@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website</title>
+</head>
+
+<style>
+  .blink {
+    animation: blink 2s linear infinite;
+    color: green;
+  }
+
+  @keyframes blink {
+  50% {
+      opacity: 0;
+    }  
+  }
+
+  h1, p {
+			text-align: center;
+		}
+
+</style>
+
+
+
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>PROFILE</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="profile.html" class="dropbtn">Profile &#x25BE;</a><br>
+                <div class="dropdown-content">
+                    <a href="pictures.html">Pictures</a><br>
+                    <a href="videos.html">Videos</a>
+                </div>
+            </li>
+            <li class="news"><a href="news.html">News</a></li>
+        </ul>
+    </nav>
+
+<br> 
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br> 
+<br>
+<br>
+<h1 class="blink">WELCOME TO MY PROFILE</h1>
+<p>Please visit my Pictures & my Videos</p>
+
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

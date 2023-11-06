@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website</title>
+</head>
+
+	<style>
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: yellowgreen;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			border-radius: 5px;
+		}
+
+		h1, h2 {
+			text-align: center;
+
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 200px;
+			border-radius: 50%;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+
+		p {
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		footer {
+ 			background-image: url(color.webp);
+  			background-color: yellowgreen;
+  			text-align: center;
+  			padding: 3px;
+  			position: fixed;
+  			left: 0;
+  			bottom: 0;
+  			width: 100%;
+		}
+	</style>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>MRD PROPERTY</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="profile.html" class="dropbtn">Profile &#x25BE;</a><br>
+                <div class="dropdown-content">
+                    <a href="pictures.html">Pictures</a><br>
+                    <a href="videos.html">Videos</a>
+                </div>
+            </li>
+            <li class="news"><a href="news.html">News</a></li>
+        </ul>
+    </nav>
+
+    <br>
+	<div class="container">
+		<img src="images/mrd1.jpg" alt="Profile Picture">
+		<h1>Marlyn Rose V. Defiesta</h1>
+		<h2>BSIT STUDENT</h2>
+		<p></p>
+		<ul>
+			<li><span class="label">Email:</span> <span class="value">marlyndefiesta9@gmail.com</span></li>
+			<li><span class="label">Phone:</span> <span class="value">09752490028</span></li>
+			<li><span class="label">Address:</span> <span class="value">Poblacion Norte, Burgos Ilocos sur</span></li>
+		</ul>
+	</div>
+
+
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
